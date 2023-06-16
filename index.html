@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=UTF-8" />
+	<title>我的作品</title>
+	<style>
+		header {
+   				 background-color: #555;
+   				 color: #fff;
+   				 padding: 20px;
+   				 text-align: center;
+    				-webkit-background-color: #555;
+    				-webkit-color: #fff;
+    				-webkit-padding: 20px;
+   				 -webkit-text-align: center;
+    				-moz-background-color: #555;
+    				-moz-color: #fff;
+    				-moz-padding: 20px;
+    				-moz-text-align: center;
+    				-ms-background-color: #555;
+    				-ms-color: #fff;
+    				-ms-padding: 20px;
+    				-ms-text-align: center;
+    				-o-background-color: #555;
+    				-o-color: #fff;
+   				 -o-padding: 20px;
+    				-o-text-align: center;
+		}
+
+		.container {
+    				display: -webkit-box;
+    				display: -moz-box;
+    				display: -ms-flexbox;
+    				display: -webkit-flex;
+    				display: flex;
+    				-webkit-flex-direction: column;
+   				 -moz-flex-direction: column;
+    				-ms-flex-direction: column;
+    				-o-flex-direction: column;
+   				 flex-direction: column;
+    				-webkit-align-items: center;
+   				 -moz-align-items: center;
+    				-ms-align-items: center;
+    				-o-align-items: center;
+    				align-items: center;
+		}
+
+		.sub-container {
+    				display: -webkit-box;
+    				display: -moz-box;
+    				display: -ms-flexbox;
+    				display: -webkit-flex;
+    				display: flex;
+    				-webkit-flex-direction: row;
+    				-moz-flex-direction: row;
+    				-ms-flex-direction: row;
+   				 -o-flex-direction: row;
+   				 flex-direction: row;
+    				-webkit-justify-content: space-between;
+    				-moz-justify-content: space-between;
+    				-ms-justify-content: space-between;
+    				-o-justify-content: space-between;
+    				justify-content: space-between;
+    				margin: 20px 0;
+    				width: 80%;
+		}
+
+		.sub-container div {
+    				background-color: #f1f1f1;
+    				margin: 0 10px;
+    				padding: 10px;
+    				border: 0px solid #ccc;
+    				text-align: center;
+    				width: 40%;
+    				-webkit-background-color: #f1f1f1;
+    				-moz-background-color: #f1f1f1;
+    				-ms-background-color: #f1f1f1;
+    				-o-background-color: #f1f1f1;
+    				-webkit-margin: 0 10px;
+    				-moz-margin: 0 10px;
+    				-ms-margin: 0 10px;
+    				-o-margin: 0 10px;
+    				-webkit-padding: 10px;
+    				-moz-padding: 10px;
+    				-ms-padding: 10px;
+    				-o-padding: 10px;
+    				-webkit-border: 0px solid #ccc;
+   				 -moz-border: 0px solid #ccc;
+    				-ms-border: 0px solid #ccc;
+    				-o-border: 0px solid #ccc;
+    				-webkit-text-align: center;
+    				-moz-text-align: center;
+    				-ms-text-align: center;
+    				-o-text-align: center;
+   				 -webkit-width: 40%;
+    				-moz-width: 40%;
+    				-ms-width: 40%;
+    				-o-width: 40%;
+		}
+
+		img {
+    			width: 200px;
+    			height: 300px;
+    			object-fit: cover;
+    			-webkit-width: 200px;
+    			-moz-width: 200px;
+    			-ms-width: 200px;
+    			-o-width: 200px;
+    			-webkit-height: 300px;
+    			-moz-height: 300px;
+    			-ms-height: 300px;
+    			-o-height: 300px;
+    			-webkit-object-fit: cover;
+    			-moz-object-fit: cover;
+    			-ms-object-fit: cover;
+    			-o-object-fit: cover;
+		}
+
+		video {
+    			width: 200px;
+    			height: 300px;
+    			object-fit: cover;
+    			-webkit-width: 200px;
+    			-moz-width: 200px;
+    			-ms-width: 200px;
+    			-o-width: 200px;
+   			 -webkit-height: 300px;
+    			-moz-height: 300px;
+    			-ms-height: 300px;
+    			-o-height: 300px;
+    			-webkit-object-fit: cover;
+    			-moz-object-fit: cover;
+    			-ms-object-fit: cover;
+    			-o-object-fit: cover;
+    			object-fit: cover;
+		}
+
+		h2 {
+   			 background-color: #888;
+    			color: #fff;
+    			text-align: center;
+    			padding: 20px;
+    			-webkit-background-color: #888;
+    			-moz-background-color: #888;
+    			-ms-background-color: #888;
+    			-o-background-color: #888;
+    			-webkit-color: #fff;
+    			-moz-color: #fff;
+    			-ms-color: #fff;
+    			-o-color: #fff;
+    			-webkit-text-align: center;
+    			-moz-text-align: center;
+    			-ms-text-align: center;
+    			-o-text-align: center;
+    			-webkit-padding: 20px;
+    			-moz-padding: 20px;
+    			-ms-padding: 20px;
+    			-o-padding: 20px;
+		}
+
+		.test{
+			width: 100%;
+			height: auto;	
+		}
+	</style>
+
+<!-- JavaScript 代码 -->
+<script>
+function showFullSizeImage(img) {
+  window.open(img.src, '_blank', 'width=' + img.naturalWidth + ',height=' + img.naturalHeight);
+}
+</script>
+</head>
+<body>
+	<header>
+		<h1>我的作品展示</h1>
+	</header>
+	<div class="container">
+			<div class="test">
+				<h2>软著和专利</h2>	
+			</div>
+		<div class="sub-container">
+			<div>
+				<img src="file/软著.jpg" alt="软著"  onclick="showFullSizeImage(this);" >
+				<h3>软著</h3>
+				<p>这是我们校级科研“基于吉利学院智慧校园下的虚拟现实三维展览馆的研究”的虚拟显示三维展览系统</p>
+			</div>
+			<div>
+				<img src="file/ZL2230774 _Page1.jpg" alt="专利"  onclick="showFullSizeImage(this);" >
+				<h3>外观设计专利</h3>
+				<p>这是一款智能音箱的外观设计专利</p>
+			</div>
+		</div>
+			<div class="test">
+				<h2>系统演示视频</h2>	
+			</div>
+		<div class="sub-container">
+			<div>
+				<video src="file/虚拟三维展览馆系统录屏.mp4" controls></video>
+				<h3>虚拟现实三维展览系统演示视频</h3>
+				<p>这是我们校级科研“基于吉利学院智慧校园下的虚拟现实三维展览馆的研究”的虚拟显示三维展览系统的演示视频。</p>
+			</div>
+			<div>
+				<video src="file/思政仿真系统部分录屏.mp4" controls></video>
+				<h3>思政仿真系统演示视频</h3>
+				<p>这是我们2022年四川大学生思想政治教育研究中心课题“虚拟仿真技术在高校思政课建设中的应用研究-以吉利学院思政课堂为例”的思政仿真系统演示视频。</p>
+			</div>
+		</div>
+			<div class="test">
+				<h2>国内外论文</h2>	
+			</div>
+		<div class="sub-container">
+			<div>
+				<img src="file/zhong1.jpg" alt="软著"  onclick="showFullSizeImage(this);" >
+				<h3>aif高校校企合作思考</h3>
+				<p>出版社：科学中国人，曾获得论文一等奖</p>
+			</div>
+			<div>
+				<img src="file/zhong2.jpg" alt="软著"  onclick="showFullSizeImage(this);" >
+				<h3>人工智能（AI）对交互设计发展的影响</h3>
+				<p>出版社：科技经济导刊</p>
+			</div>
+		</div>
+		<div class="sub-container">
+			<div>
+				<img src="file/english1.jpg" alt="软著"  onclick="showFullSizeImage(this);" >
+				<h3>The influence of virtual geometrytechnology on Animation Indust</h3>
+				<p>出版社：Learning&Education</p>
+			</div>
+			<div>
+				<img src="file/english2.jpg" alt="软著"  onclick="showFullSizeImage(this);" >
+				<h3>Research on the influence mechanism of artificial intelligence technology on the career of animation practitioners in the future</h3>
+				<p>出版社：Learning&Education</p>
+			</div>
+		</div>
+		<div class="sub-container">
+			<div>
+				<img src="file/english3.jpg" alt="软著"  onclick="showFullSizeImage(this);" >
+				<h3>Research on Virtual Reality 3D exhibition hall based on the smart campus of Geely University</h3>
+				<p>出版社：BIQ-BYWORD  SCIENTIFIC PUBLISHING PTY LTD，</p>
+			</div>
+			<div>
+				<img src="file/english4.jpg" alt="软著"  onclick="showFullSizeImage(this);" >
+				<h3>Research on virtual teaching mode of Chinese traditional virtue</h3>
+				<p>出版社：Learning&Education</p>
+			</div>
+		</div>
+		<div class="sub-container">
+			<div>
+				<img src="file/english5.jpg" alt="软著"  onclick="showFullSizeImage(this);" >
+				<h3>Research on "Three Creations"Talent Training Mode of  Geely University</h3>
+				<p>出版社：Universe Scientific Publishing Pte.Ltd.</p>
+			</div>
+			<div>
+				<img src="file/english6.png" alt="软著"  onclick="showFullSizeImage(this);" >
+				<h3>基于UE5的思政仿真系统设计与实现</h3>
+				<p>出版社：华中科技大学出版社</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
